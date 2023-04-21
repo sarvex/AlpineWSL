@@ -13,8 +13,8 @@ zip: $(OUT_ZIP)
 $(OUT_ZIP): $(ARCH)
 
 x86:
-	cd x64 && $(MAKE)
-	mv x64/$(OUT_ZIP) ./
+	cd x86 && $(MAKE)
+	mv x86/$(OUT_ZIP) ./
 
 x64:
 	cd x64 && $(MAKE)
